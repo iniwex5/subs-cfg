@@ -1,0 +1,391 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+geodata-mode: false
+proxies:
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇭🇰 香港A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27010
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇭🇰 香港B[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27012
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇭🇰 香港D[IPLC]
+- type: vless
+  name: ZTB|🇺🇸 美国01[直连]
+  server: us02ngnmsl.sys-metric-report.com
+  port: 8443
+  uuid: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  packet-encoding: xudp
+  reality-opts:
+    public-key: 13XzX1y9zEAUvxw4pAT5LboPnL7JfW1UUicBqtsUCWs
+    short-id: 036998c8
+  network: tcp
+  client-fingerprint: chrome
+  servername: usngsmsb.cfastcdn.com
+- type: vless
+  name: ZTB|🇭🇰 香港02[直连]
+  server: hk01ngnmsl.sys-metric-report.com
+  port: 8443
+  uuid: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  packet-encoding: xudp
+  reality-opts:
+    public-key: wTj25clRfdC8-MKIEHuo-OF2uIVDzl1xgah9WXgUtAg
+    short-id: 339c6ef1
+  network: tcp
+  client-fingerprint: chrome
+  servername: hkngsmsb.cfastcdn.com
+- type: vless
+  name: ZTB|🇸🇬 新加坡01[直连]
+  server: sgp01ngnmsl.sys-metric-report.com
+  port: 8443
+  uuid: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  packet-encoding: xudp
+  reality-opts:
+    public-key: lcDUHz1V3Y3uzgHWtan21BlfUjF07M9RhXe7HNnSm1I
+    short-id: 9368dd99
+  network: tcp
+  client-fingerprint: chrome
+  servername: sgngsmsb.cfastcdn.com
+- type: vless
+  name: ZTB|🇰🇷 韩国01[直连]
+  server: kr01ngnmsl.sys-metric-report.com
+  port: 8443
+  uuid: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  packet-encoding: xudp
+  reality-opts:
+    public-key: -Ah1R_yf6g__5sVtXVpnodlTfJIAJaTO6HzogJ6BDHM
+    short-id: 7078013e
+  network: tcp
+  client-fingerprint: chrome
+  servername: krngsmsb.cfastcdn.com
+- type: vless
+  name: ZTB|🇯🇵 日本01[直连]
+  server: jp01ngnmsl.sys-metric-report.com
+  port: 8443
+  uuid: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  packet-encoding: xudp
+  reality-opts:
+    public-key: rKcoTZcg7dTRwB4pLPMluoLXs4S3uF4IjB96d_xnfQ4
+    short-id: a86d7a1c
+  network: tcp
+  client-fingerprint: chrome
+  servername: jpngsmsb.cfastcdn.com
+- type: vless
+  name: ZTB|🇩🇪 德国01[直连]
+  server: de01ngnmsl.sys-metric-report.com
+  port: 8443
+  uuid: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  packet-encoding: xudp
+  reality-opts:
+    public-key: RS1t9CktDe9830H2dyFCOFuwEaFxcCmRwCTyS5xtAkw
+    short-id: 6106adb3
+  network: tcp
+  client-fingerprint: chrome
+  servername: dapp.cfastcdn.com
+- type: vless
+  name: ZTB|🇯🇵 日本03[直连]
+  server: jp03ngnmsl.sys-metric-report.com
+  port: 8443
+  uuid: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: false
+  packet-encoding: xudp
+  reality-opts:
+    public-key: -G_W_hNpLGLxUJ2tcyVL5wexUG4QKnp_Wd5s8bW9l0w
+    short-id: ced80bfd
+  network: tcp
+  client-fingerprint: chrome
+  servername: jpngsmsb.cfastcdn.com
+- type: vless
+  name: ZTB|🇩🇪 德国02[直连]
+  server: de02ngnmsl.sys-metric-report.com
+  port: 8443
+  uuid: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  packet-encoding: xudp
+  reality-opts:
+    public-key: xbzN5CnBi3GEh1-IvbzqVh370VvrNB-6MOdF1bvIKXY
+    short-id: 5f553442
+  network: tcp
+  client-fingerprint: chrome
+  servername: dapp.cfastcdn.com
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27004
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇹🇼 台湾A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27005
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇹🇼 台湾B[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27006
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇹🇼 台湾C[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 48085
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇯🇵 日本B[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 11689
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇯🇵 日本C[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27101
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇸🇬 新加坡B[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 36879
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇸🇬 新加坡C[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 47818
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇰🇷 韩国A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 33167
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇰🇷 韩国B[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27008
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇺🇸 美国A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27007
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇺🇸 美国B[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 32726
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇲🇾 马来西亚A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 11277
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇵🇭 菲律宾A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 51849
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇮🇩 印度尼西亚A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 22571
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇹🇷 土耳其A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 37628
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇹🇭 泰国A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 47915
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇦🇺 澳大利亚A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 27015
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇩🇪 德国A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 36544
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇬🇧 英国A[IPLC]
+- type: ss
+  skip-cert-verify: false
+  udp: true
+  server: waic.pro.main.sys-metric-report.com
+  port: 50841
+  cipher: chacha20-ietf-poly1305
+  password: 93a07b82-be2f-42de-9f2b-e5c07ab24c3c
+  name: ZTB|🇻🇳 越南A[IPLC]
+proxy-groups:
+- name: 🚀 选择
+  type: select
+  proxies:
+  - ZTB|🇭🇰 香港A[IPLC]
+  - ZTB|🇭🇰 香港B[IPLC]
+  - ZTB|🇭🇰 香港D[IPLC]
+  - ZTB|🇺🇸 美国01[直连]
+  - ZTB|🇭🇰 香港02[直连]
+  - ZTB|🇸🇬 新加坡01[直连]
+  - ZTB|🇰🇷 韩国01[直连]
+  - ZTB|🇯🇵 日本01[直连]
+  - ZTB|🇩🇪 德国01[直连]
+  - ZTB|🇯🇵 日本03[直连]
+  - ZTB|🇩🇪 德国02[直连]
+  - ZTB|🇹🇼 台湾A[IPLC]
+  - ZTB|🇹🇼 台湾B[IPLC]
+  - ZTB|🇹🇼 台湾C[IPLC]
+  - ZTB|🇯🇵 日本B[IPLC]
+  - ZTB|🇯🇵 日本C[IPLC]
+  - ZTB|🇸🇬 新加坡B[IPLC]
+  - ZTB|🇸🇬 新加坡C[IPLC]
+  - ZTB|🇰🇷 韩国A[IPLC]
+  - ZTB|🇰🇷 韩国B[IPLC]
+  - ZTB|🇺🇸 美国A[IPLC]
+  - ZTB|🇺🇸 美国B[IPLC]
+  - ZTB|🇲🇾 马来西亚A[IPLC]
+  - ZTB|🇵🇭 菲律宾A[IPLC]
+  - ZTB|🇮🇩 印度尼西亚A[IPLC]
+  - ZTB|🇹🇷 土耳其A[IPLC]
+  - ZTB|🇹🇭 泰国A[IPLC]
+  - ZTB|🇦🇺 澳大利亚A[IPLC]
+  - ZTB|🇩🇪 德国A[IPLC]
+  - ZTB|🇬🇧 英国A[IPLC]
+  - ZTB|🇻🇳 越南A[IPLC]
+- name: ♻️ 自动
+  type: url-test
+  proxies:
+  - ZTB|🇭🇰 香港A[IPLC]
+  - ZTB|🇭🇰 香港B[IPLC]
+  - ZTB|🇭🇰 香港D[IPLC]
+  - ZTB|🇺🇸 美国01[直连]
+  - ZTB|🇭🇰 香港02[直连]
+  - ZTB|🇸🇬 新加坡01[直连]
+  - ZTB|🇰🇷 韩国01[直连]
+  - ZTB|🇯🇵 日本01[直连]
+  - ZTB|🇩🇪 德国01[直连]
+  - ZTB|🇯🇵 日本03[直连]
+  - ZTB|🇩🇪 德国02[直连]
+  - ZTB|🇹🇼 台湾A[IPLC]
+  - ZTB|🇹🇼 台湾B[IPLC]
+  - ZTB|🇹🇼 台湾C[IPLC]
+  - ZTB|🇯🇵 日本B[IPLC]
+  - ZTB|🇯🇵 日本C[IPLC]
+  - ZTB|🇸🇬 新加坡B[IPLC]
+  - ZTB|🇸🇬 新加坡C[IPLC]
+  - ZTB|🇰🇷 韩国A[IPLC]
+  - ZTB|🇰🇷 韩国B[IPLC]
+  - ZTB|🇺🇸 美国A[IPLC]
+  - ZTB|🇺🇸 美国B[IPLC]
+  - ZTB|🇲🇾 马来西亚A[IPLC]
+  - ZTB|🇵🇭 菲律宾A[IPLC]
+  - ZTB|🇮🇩 印度尼西亚A[IPLC]
+  - ZTB|🇹🇷 土耳其A[IPLC]
+  - ZTB|🇹🇭 泰国A[IPLC]
+  - ZTB|🇦🇺 澳大利亚A[IPLC]
+  - ZTB|🇩🇪 德国A[IPLC]
+  - ZTB|🇬🇧 英国A[IPLC]
+  - ZTB|🇻🇳 越南A[IPLC]
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+  tolerance: 50
+rules:
+- MATCH,🚀 选择
