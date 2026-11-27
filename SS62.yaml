@@ -1,0 +1,666 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+geodata-mode: false
+proxies:
+- name: SS62|剩余流量：171.6 GB
+  type: vless
+  server: slb.wfast.cc
+  port: 26001
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: EEHk1rnzAvOaRPB64LI-py7GEXMY0WZnY3rOMhQ56TI
+    short-id: 6c7eed5b
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|套餐到期：2030-08-27
+  type: vless
+  server: slb.wfast.cc
+  port: 26001
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: EEHk1rnzAvOaRPB64LI-py7GEXMY0WZnY3rOMhQ56TI
+    short-id: 6c7eed5b
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇭🇰 香港01
+  type: vless
+  server: slb.wfast.cc
+  port: 26001
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: EEHk1rnzAvOaRPB64LI-py7GEXMY0WZnY3rOMhQ56TI
+    short-id: 6c7eed5b
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇭🇰 香港02
+  type: vless
+  server: slb.wfast.cc
+  port: 26002
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: ltFd5m49fd3WFgy-3gOonDF0MvFdBmBoJ2hJcNcDmWE
+    short-id: 6b8501f3
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇭🇰 香港家宽HKT
+  type: vless
+  server: slb.wfast.cc
+  port: 26011
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: true
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 8zWu0jqvMr_T6Z-epCBzQXYWbJlC--u1oHCZAFZfTik
+    short-id: 7138872b
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇭🇰 香港家宽HKBN
+  type: vless
+  server: slb.wfast.cc
+  port: 26012
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: 3XAeB487pU8UuVlkwZDJ--PC4AU7LFyn_fNqZIaAkT8
+    short-id: 4a821fb6
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇹🇼 台湾01
+  type: vless
+  server: slb.wfast.cc
+  port: 26021
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: qHM7H8Z4EiqukY6Wr0JWI881CHJdTpMhfN15IzjXlQY
+    short-id: 213279c1
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇹🇼 台湾02
+  type: vless
+  server: slb.wfast.cc
+  port: 26022
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: ElOdetaj8P9UXE8i2DiEqnzBMeobwWKdBVTJcte8GWg
+    short-id: e720e57e
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇹🇼 台湾家宽Hinet
+  type: vless
+  server: slb.wfast.cc
+  port: 26031
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: TtSxgz6aYzEaZCB3QTpR3XR8UBXHkmK6o3a9OBXWiUE
+    short-id: bbe2b88b
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇹🇼 台湾家宽SeedNet
+  type: vless
+  server: slb.wfast.cc
+  port: 26032
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: safari
+  reality-opts:
+    public-key: qFs5gZfqmLZIKJJ69jKDfZHq41_o6FbLWFdQUBwyyGU
+    short-id: 6f6c7eaf
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇸🇬 新加坡01
+  type: vless
+  server: slb.wfast.cc
+  port: 26041
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: edge
+  reality-opts:
+    public-key: O1daNGsWIcdpRfEv0l3L2tUZFrivmTD4izghbIpYSEc
+    short-id: 3e39fb79
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇸🇬 新加坡02
+  type: vless
+  server: slb.wfast.cc
+  port: 26042
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: edge
+  reality-opts:
+    public-key: tG6Ujf4MXGRrYGxgmVIuA9OGzHL9bfMx6rs7rYAJjj4
+    short-id: f19a49c8
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇲🇾 马来家宽TMNET
+  type: vless
+  server: slb.wfast.cc
+  port: 26071
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: edge
+  reality-opts:
+    public-key: FPnrVLWi8dAuGk20jU6LB4gb5vdEq-FIxwIRH1YYUgc
+    short-id: b7c52b32
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇻🇳 越南01
+  type: vless
+  server: slb.wfast.cc
+  port: 26081
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: dqO63xknFrIebz7u0f1BBH0pL6J5wp1018uC_nUwDCQ
+    short-id: 62375b98
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇮🇩 印尼01
+  type: vless
+  server: slb.wfast.cc
+  port: 26101
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1Fiu_Nwisl4YwYCkaqEGRVqB1XePstT37XmUaFIRYCQ
+    short-id: 663eaba5
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇵🇭 菲律宾01
+  type: vless
+  server: slb.wfast.cc
+  port: 26121
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Y8S1mWggEF1t7arCPsldCAFJkxaJJ5EJW6JdAUDPDyI
+    short-id: 0d165a31
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇹🇭 泰国01
+  type: vless
+  server: slb.wfast.cc
+  port: 26141
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: shqK2HHwkYLZVLBaWEQO_T3g4stzCtUKgeSa23UX0B8
+    short-id: ba9a8154
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇮🇳 印度01
+  type: vless
+  server: slb.wfast.cc
+  port: 26161
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 2NEyEwR9Lo82gOXggkPOXIaApELYOO-ZIE-_zBrvW0o
+    short-id: db1bcf80
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇯🇵 日本01
+  type: vless
+  server: slb.wfast.cc
+  port: 26181
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: h1NEh1t-cxuKFRHEEpCZoGkjyNKXfbo_UGkk8FT-tiU
+    short-id: b47fc439
+    support-x25519mlkem768: true
+  network: tcp
+  servername: images.samsung.com
+- name: SS62|🇯🇵 日本02
+  type: vless
+  server: slb.wfast.cc
+  port: 26182
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1xTJkkl4K1_Y969TepFVS3CwLMsmnRmuxdkS1J0592g
+    short-id: '80895091'
+    support-x25519mlkem768: true
+  network: tcp
+  servername: images.samsung.com
+- name: SS62|🇯🇵 日本家宽SoftBank | 5.0x
+  type: vless
+  server: slb.wfast.cc
+  port: 26191
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 9VCHs-KljowkM2qZKg8a7MEU-rvAOZti3vApEH51ZBs
+    short-id: d62dc7b8
+    support-x25519mlkem768: true
+  network: tcp
+  servername: images.samsung.com
+- name: SS62|🇯🇵 日本家宽Biglobe | 5.0x
+  type: vless
+  server: slb.wfast.cc
+  port: 26192
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: p7073BUgqKDu4XHUQZtdifh-mP5N69J99uLrhYNA4xs
+    short-id: a74335d8
+    support-x25519mlkem768: true
+  network: tcp
+  servername: images.samsung.com
+- name: SS62|🇯🇵 日本家宽Rakuten | 5.0x
+  type: vless
+  server: slb.wfast.cc
+  port: 26193
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Pl9wweEBNtFOxQjc8X6c5Zywr8YSvTfMM6DqnA-etWA
+    short-id: bae3908b
+    support-x25519mlkem768: true
+  network: tcp
+  servername: images.samsung.com
+- name: SS62|🇯🇵 日本家宽Kddi | 5.0x
+  type: vless
+  server: slb.wfast.cc
+  port: 26194
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: xq1sgWx_ZlS3-L_0z-spd0yT2LJQHtAfJapFKz_I3xA
+    short-id: a4c49b7a
+    support-x25519mlkem768: true
+  network: tcp
+  servername: images.samsung.com
+- name: SS62|🇰🇷 韩国01
+  type: vless
+  server: slb.wfast.cc
+  port: 26201
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Se0Lx6G3BSJGkF6Achkvi0thdNK1FNf73QuBE03-4Xc
+    short-id: 27bb31d4
+    support-x25519mlkem768: true
+  network: tcp
+  servername: images.samsung.com
+- name: SS62|🇦🇺 澳大利亚01
+  type: vless
+  server: slb.wfast.cc
+  port: 26221
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: edge
+  reality-opts:
+    public-key: odShgNpkCGbBjqjCrgz1FdW4rDpxLXTxV4JJhMy8VzU
+    short-id: f8d34a72
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇺🇸 美国01
+  type: vless
+  server: slb.wfast.cc
+  port: 26241
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: zJKh0Lq18O1pdJqxQRzS7YOHL74v-1brGtYoCnkM9So
+    short-id: 1ab9ae9a
+    support-x25519mlkem768: true
+  network: tcp
+  servername: aws.amazon.com
+- name: SS62|🇺🇸 美国02
+  type: vless
+  server: slb.wfast.cc
+  port: 26242
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: lj7JhLgspwPUwESm7zcBEhZnJepOF44YRdTcJolrXTc
+    short-id: f1958012
+    support-x25519mlkem768: true
+  network: tcp
+  servername: aws.amazon.com
+- name: SS62|🇺🇸 美国03
+  type: vless
+  server: slb.wfast.cc
+  port: 26243
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ohyxlgRd8yLiGutblj0jj3uAOdkZhYTUsNbd2rLPPxM
+    short-id: a47e6548
+    support-x25519mlkem768: true
+  network: tcp
+  servername: aws.amazon.com
+- name: SS62|🇺🇸 美国04
+  type: vless
+  server: slb.wfast.cc
+  port: 26244
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5Vl-4aAmOcZNCpvh77_VBfHLXAHusyvotQeqOXSAdTY
+    short-id: 13fe77dd
+    support-x25519mlkem768: true
+  network: tcp
+  servername: aws.amazon.com
+- name: SS62|🇺🇸 美国家宽Frontier | 5.0x
+  type: vless
+  server: slb.wfast.cc
+  port: 26251
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: vmuOmpqT8Zt-eRmQgEe3R5kBMu1C14x3iZwIiN9aJEY
+    short-id: f781cd0c
+    support-x25519mlkem768: true
+  network: tcp
+  servername: aws.amazon.com
+- name: SS62|🇺🇸 美国家宽T-Mobile | 5.0x
+  type: vless
+  server: slb.wfast.cc
+  port: 26252
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BgBPYZj4AjHzBjXb33Qoy2LeuONahQr_nBtjX6gfVSI
+    short-id: 40c317f2
+    support-x25519mlkem768: true
+  network: tcp
+  servername: aws.amazon.com
+- name: SS62|🇲🇽 墨西哥01
+  type: vless
+  server: slb.wfast.cc
+  port: 26261
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k0k7Lmv8bqOxCJRD4_YN5r6plyf5fWCUFfABI-MGXkE
+    short-id: 602f4299
+    support-x25519mlkem768: true
+  network: tcp
+  servername: aws.amazon.com
+- name: SS62|🇨🇦 加拿大01
+  type: vless
+  server: slb.wfast.cc
+  port: 26281
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OBMYU0mPT316nHR5bgAIc6nmuDEAAwGV2frA6ytWBVg
+    short-id: 0e8d8a4a
+    support-x25519mlkem768: true
+  network: tcp
+  servername: aws.amazon.com
+- name: SS62|🇩🇪 德国01
+  type: vless
+  server: slb.wfast.cc
+  port: 26301
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kTVxlNgQAxbYaceb2VmUUUj8J5E1M2NaY4xxFpm_xzc
+    short-id: 28b4da5b
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+- name: SS62|🇬🇧 英国01
+  type: vless
+  server: slb.wfast.cc
+  port: 26321
+  uuid: 63e5b4df-021d-4a2c-837b-798ef9a70b34
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: McGrejhK3TIBPqu9ELyOZS0QJs-p5AgVwIL_bOXLVT4
+    short-id: 9a17a7ed
+    support-x25519mlkem768: true
+  network: tcp
+  servername: music.apple.com
+proxy-groups:
+- name: 🚀 选择
+  type: select
+  proxies:
+  - SS62|剩余流量：171.6 GB
+  - SS62|套餐到期：2030-08-27
+  - SS62|🇭🇰 香港01
+  - SS62|🇭🇰 香港02
+  - SS62|🇭🇰 香港家宽HKT
+  - SS62|🇭🇰 香港家宽HKBN
+  - SS62|🇹🇼 台湾01
+  - SS62|🇹🇼 台湾02
+  - SS62|🇹🇼 台湾家宽Hinet
+  - SS62|🇹🇼 台湾家宽SeedNet
+  - SS62|🇸🇬 新加坡01
+  - SS62|🇸🇬 新加坡02
+  - SS62|🇲🇾 马来家宽TMNET
+  - SS62|🇻🇳 越南01
+  - SS62|🇮🇩 印尼01
+  - SS62|🇵🇭 菲律宾01
+  - SS62|🇹🇭 泰国01
+  - SS62|🇮🇳 印度01
+  - SS62|🇯🇵 日本01
+  - SS62|🇯🇵 日本02
+  - SS62|🇯🇵 日本家宽SoftBank | 5.0x
+  - SS62|🇯🇵 日本家宽Biglobe | 5.0x
+  - SS62|🇯🇵 日本家宽Rakuten | 5.0x
+  - SS62|🇯🇵 日本家宽Kddi | 5.0x
+  - SS62|🇰🇷 韩国01
+  - SS62|🇦🇺 澳大利亚01
+  - SS62|🇺🇸 美国01
+  - SS62|🇺🇸 美国02
+  - SS62|🇺🇸 美国03
+  - SS62|🇺🇸 美国04
+  - SS62|🇺🇸 美国家宽Frontier | 5.0x
+  - SS62|🇺🇸 美国家宽T-Mobile | 5.0x
+  - SS62|🇲🇽 墨西哥01
+  - SS62|🇨🇦 加拿大01
+  - SS62|🇩🇪 德国01
+  - SS62|🇬🇧 英国01
+- name: ♻️ 自动
+  type: url-test
+  proxies:
+  - SS62|剩余流量：171.6 GB
+  - SS62|套餐到期：2030-08-27
+  - SS62|🇭🇰 香港01
+  - SS62|🇭🇰 香港02
+  - SS62|🇭🇰 香港家宽HKT
+  - SS62|🇭🇰 香港家宽HKBN
+  - SS62|🇹🇼 台湾01
+  - SS62|🇹🇼 台湾02
+  - SS62|🇹🇼 台湾家宽Hinet
+  - SS62|🇹🇼 台湾家宽SeedNet
+  - SS62|🇸🇬 新加坡01
+  - SS62|🇸🇬 新加坡02
+  - SS62|🇲🇾 马来家宽TMNET
+  - SS62|🇻🇳 越南01
+  - SS62|🇮🇩 印尼01
+  - SS62|🇵🇭 菲律宾01
+  - SS62|🇹🇭 泰国01
+  - SS62|🇮🇳 印度01
+  - SS62|🇯🇵 日本01
+  - SS62|🇯🇵 日本02
+  - SS62|🇯🇵 日本家宽SoftBank | 5.0x
+  - SS62|🇯🇵 日本家宽Biglobe | 5.0x
+  - SS62|🇯🇵 日本家宽Rakuten | 5.0x
+  - SS62|🇯🇵 日本家宽Kddi | 5.0x
+  - SS62|🇰🇷 韩国01
+  - SS62|🇦🇺 澳大利亚01
+  - SS62|🇺🇸 美国01
+  - SS62|🇺🇸 美国02
+  - SS62|🇺🇸 美国03
+  - SS62|🇺🇸 美国04
+  - SS62|🇺🇸 美国家宽Frontier | 5.0x
+  - SS62|🇺🇸 美国家宽T-Mobile | 5.0x
+  - SS62|🇲🇽 墨西哥01
+  - SS62|🇨🇦 加拿大01
+  - SS62|🇩🇪 德国01
+  - SS62|🇬🇧 英国01
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+  tolerance: 50
+rules:
+- MATCH,🚀 选择
