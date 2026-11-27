@@ -1,0 +1,424 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+geodata-mode: false
+proxies:
+- name: Teddy|剩余流量：1000.81 GB
+  type: anytls
+  server: lnj1b2.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: lnj1b2.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|距离下次重置剩余：28 天
+  type: anytls
+  server: lnj1b2.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: lnj1b2.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|套餐到期：2026-12-25
+  type: anytls
+  server: lnj1b2.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: lnj1b2.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇭🇰Hong Kong 01
+  type: anytls
+  server: lnj1b2.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: lnj1b2.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇭🇰Hong Kong 02
+  type: anytls
+  server: axbr4h.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: axbr4h.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇭🇰Hong Kong 03
+  type: anytls
+  server: lnj1b2.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: lnj1b2.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇭🇰Hong Kong 04
+  type: anytls
+  server: axbr4h.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: axbr4h.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇯🇵Japan 01
+  type: anytls
+  server: yi18i1.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: yi18i1.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇯🇵Japan 02
+  type: anytls
+  server: o5q7ii.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: o5q7ii.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇯🇵Japan 03
+  type: anytls
+  server: yi18i1.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: yi18i1.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇯🇵Japan 04
+  type: anytls
+  server: o5q7ii.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: o5q7ii.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇸🇬Singapore 01
+  type: anytls
+  server: whel4i.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: whel4i.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇸🇬Singapore 02
+  type: anytls
+  server: xkjr06.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: xkjr06.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇸🇬Singapore 03
+  type: anytls
+  server: whel4i.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: whel4i.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇸🇬Singapore 04
+  type: anytls
+  server: xkjr06.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: xkjr06.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇺🇸United States 01
+  type: anytls
+  server: kn93ha.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: kn93ha.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇺🇸United States 02
+  type: anytls
+  server: qxq9sx.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: qxq9sx.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇺🇸United States 03
+  type: anytls
+  server: kn93ha.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: kn93ha.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇺🇸United States 04
+  type: anytls
+  server: qxq9sx.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: qxq9sx.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇰🇷Korea 01
+  type: anytls
+  server: xomo5y.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: xomo5y.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇰🇷Korea 02
+  type: anytls
+  server: i1iegs.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: i1iegs.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇰🇷Korea 03
+  type: anytls
+  server: xomo5y.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: xomo5y.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇰🇷Korea 04
+  type: anytls
+  server: i1iegs.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: i1iegs.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇩🇪Germany 01
+  type: anytls
+  server: fxv116.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: fxv116.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇩🇪Germany 02
+  type: anytls
+  server: fxv116.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: fxv116.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇬🇧United Kingdom 01
+  type: anytls
+  server: wt4g2i.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: wt4g2i.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇬🇧United Kingdom 02
+  type: anytls
+  server: wt4g2i.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: wt4g2i.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇮🇳India 01
+  type: anytls
+  server: fmnyst.teddycloud.top
+  port: 443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: fmnyst.teddycloud.top
+  skip-cert-verify: false
+- name: Teddy|🇮🇳India 02
+  type: anytls
+  server: fmnyst.teddycloud.top
+  port: 8443
+  password: 65181827-bdf2-4f41-90e5-d54491a0f1d4
+  client-fingerprint: chrome
+  udp: true
+  alpn:
+  - h2
+  - http/1.1
+  sni: fmnyst.teddycloud.top
+  skip-cert-verify: false
+proxy-groups:
+- name: 🚀 选择
+  type: select
+  proxies:
+  - Teddy|剩余流量：1000.81 GB
+  - Teddy|距离下次重置剩余：28 天
+  - Teddy|套餐到期：2026-12-25
+  - Teddy|🇭🇰Hong Kong 01
+  - Teddy|🇭🇰Hong Kong 02
+  - Teddy|🇭🇰Hong Kong 03
+  - Teddy|🇭🇰Hong Kong 04
+  - Teddy|🇯🇵Japan 01
+  - Teddy|🇯🇵Japan 02
+  - Teddy|🇯🇵Japan 03
+  - Teddy|🇯🇵Japan 04
+  - Teddy|🇸🇬Singapore 01
+  - Teddy|🇸🇬Singapore 02
+  - Teddy|🇸🇬Singapore 03
+  - Teddy|🇸🇬Singapore 04
+  - Teddy|🇺🇸United States 01
+  - Teddy|🇺🇸United States 02
+  - Teddy|🇺🇸United States 03
+  - Teddy|🇺🇸United States 04
+  - Teddy|🇰🇷Korea 01
+  - Teddy|🇰🇷Korea 02
+  - Teddy|🇰🇷Korea 03
+  - Teddy|🇰🇷Korea 04
+  - Teddy|🇩🇪Germany 01
+  - Teddy|🇩🇪Germany 02
+  - Teddy|🇬🇧United Kingdom 01
+  - Teddy|🇬🇧United Kingdom 02
+  - Teddy|🇮🇳India 01
+  - Teddy|🇮🇳India 02
+- name: ♻️ 自动
+  type: url-test
+  proxies:
+  - Teddy|剩余流量：1000.81 GB
+  - Teddy|距离下次重置剩余：28 天
+  - Teddy|套餐到期：2026-12-25
+  - Teddy|🇭🇰Hong Kong 01
+  - Teddy|🇭🇰Hong Kong 02
+  - Teddy|🇭🇰Hong Kong 03
+  - Teddy|🇭🇰Hong Kong 04
+  - Teddy|🇯🇵Japan 01
+  - Teddy|🇯🇵Japan 02
+  - Teddy|🇯🇵Japan 03
+  - Teddy|🇯🇵Japan 04
+  - Teddy|🇸🇬Singapore 01
+  - Teddy|🇸🇬Singapore 02
+  - Teddy|🇸🇬Singapore 03
+  - Teddy|🇸🇬Singapore 04
+  - Teddy|🇺🇸United States 01
+  - Teddy|🇺🇸United States 02
+  - Teddy|🇺🇸United States 03
+  - Teddy|🇺🇸United States 04
+  - Teddy|🇰🇷Korea 01
+  - Teddy|🇰🇷Korea 02
+  - Teddy|🇰🇷Korea 03
+  - Teddy|🇰🇷Korea 04
+  - Teddy|🇩🇪Germany 01
+  - Teddy|🇩🇪Germany 02
+  - Teddy|🇬🇧United Kingdom 01
+  - Teddy|🇬🇧United Kingdom 02
+  - Teddy|🇮🇳India 01
+  - Teddy|🇮🇳India 02
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+  tolerance: 50
+rules:
+- MATCH,🚀 选择
