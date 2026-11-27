@@ -1,0 +1,1052 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+geodata-mode: false
+proxies:
+- type: anytls
+  server: 13.114.50.155
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  name: SS6|🇯🇵｜AWS JP｜Anytls
+- type: tuic
+  server: 13.114.50.155
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇯🇵｜AWS JP｜TUIC
+  udp-relay-mode: native
+  version: 5
+- type: vless
+  server: 13.114.50.155
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: awsjpvl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜AWS JP｜Vless
+  servername: awsjpvl.8437351.xyz
+- type: vless
+  server: cfjp.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: awsjpvl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜AWS JP｜Vless CFP
+  servername: awsjpvl.8437351.xyz
+- type: vless
+  server: cfnrt.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: awsjpvl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜AWS JP｜Vless CF
+  servername: awsjpvl.8437351.xyz
+- type: vless
+  server: 23.147.68.48
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: hkgvl.8437351.xyz
+    path: /
+  name: SS6|🇭🇰｜HKG｜Vless
+  servername: hkgvl.8437351.xyz
+- type: tuic
+  server: 23.147.68.48
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇭🇰｜HKG｜TUIC
+  udp-relay-mode: native
+  version: 5
+- type: hysteria2
+  server: 23.147.68.48
+  port: 443
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇭🇰｜HKG｜Hysteria2
+- type: anytls
+  server: 23.147.68.48
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  name: SS6|🇭🇰｜HKG｜Anytls
+- type: vless
+  server: cfhk.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: hkgvl.8437351.xyz
+    path: /
+  name: SS6|🇭🇰｜HKG｜Vless CFP
+  servername: hkgvl.8437351.xyz
+- type: vless
+  server: ctcf.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: hkgvl.8437351.xyz
+    path: /
+  name: SS6|🇭🇰｜HKG｜Vless CF
+  servername: hkgvl.8437351.xyz
+- type: vless
+  server: 158.179.182.252
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp1vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP1｜Vless
+  servername: jp1vl.8437351.xyz
+- type: anytls
+  server: jp1.2020713.xyz
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  name: SS6|🇯🇵｜JP1｜Anytls
+- type: tuic
+  server: jp1.2020713.xyz
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇯🇵｜JP1｜TUIC
+  udp-relay-mode: native
+  version: 5
+- type: hysteria2
+  server: jp1.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇯🇵｜JP1｜Hysteria2
+- type: vless
+  server: cfjp.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp1vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP1｜Vless CFP
+  servername: jp1vl.8437351.xyz
+- type: vless
+  server: cfnrt.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp1vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP1｜Vless CF
+  servername: jp1vl.8437351.xyz
+- type: vless
+  server: 140.245.95.193
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp2vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP2｜Vless
+  servername: jp2vl.8437351.xyz
+- type: anytls
+  server: 140.245.95.193
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: RVzaBFZjKW
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  name: SS6|🇯🇵｜JP2｜Anytls
+- type: tuic
+  server: jp2.8437351.xyz
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: RVzaBFZjKW
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇯🇵｜JP2｜TUIC
+  udp-relay-mode: native
+  version: 5
+- type: hysteria2
+  server: jp2.8437351.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  password: Hdnb@1234
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇯🇵｜JP2｜Hysteria2
+- type: vless
+  server: cfjp.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp2vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP2｜Vless CFP
+  servername: jp2vl.8437351.xyz
+- type: vless
+  server: cfnrt.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: jp2vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP2｜Vless CF
+  servername: jp2vl.8437351.xyz
+- type: anytls
+  server: 138.2.13.1
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  name: SS6|🇯🇵｜JP3｜Anytls
+- type: tuic
+  server: 138.2.13.1
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: true
+  request-timeout: 8000
+  udp-relay-mode: native
+  name: SS6|🇯🇵｜JP3｜TUIC
+  version: 5
+- type: hysteria2
+  server: 138.2.13.1
+  port: 8443
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  down: 500 Mbps
+  name: SS6|🇯🇵｜JP3｜Hysteria2
+- type: vless
+  server: 138.2.13.1
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: JP3vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP3｜Vless
+  servername: JP3vl.8437351.xyz
+- type: vless
+  server: cfjp.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: JP3vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP3｜Vless CFP
+  servername: JP3vl.8437351.xyz
+- type: vless
+  server: cfnrt.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: JP3vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP3｜Vless CF
+  servername: JP3vl.8437351.xyz
+- type: anytls
+  server: 151.145.78.245
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  client-fingerprint: chrome
+  alpn:
+  - h3
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
+  name: SS6|🇯🇵｜JP4｜Anytls
+- type: tuic
+  server: 151.145.78.245
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: true
+  request-timeout: 8000
+  udp-relay-mode: native
+  name: SS6|🇯🇵｜JP4｜TUIC
+  version: 5
+- type: hysteria2
+  server: 151.145.78.245
+  port: 8443
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  down: 500 Mbps
+  name: SS6|🇯🇵｜JP4｜Hysteria2
+- type: vless
+  server: 151.145.78.245
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: JP4vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP4｜Vless
+  servername: JP4vl.8437351.xyz
+- type: vless
+  server: cfjp.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: JP4vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP4｜Vless CFP
+  servername: JP4vl.8437351.xyz
+- type: vless
+  server: cfnrt.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: JP4vl.8437351.xyz
+    path: /
+  name: SS6|🇯🇵｜JP4｜Vless CF
+  servername: JP4vl.8437351.xyz
+- type: anytls
+  server: kulai1.8437351.xyz
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  name: SS6|🇲🇾｜KULAI1｜Anytls
+- type: tuic
+  server: 149.118.133.177
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇲🇾｜KULAI1｜TUIC
+  udp-relay-mode: native
+  version: 5
+- type: vless
+  server: 149.118.133.177
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: kulai1vl.8437351.xyz
+    path: /
+  name: SS6|🇲🇾｜KULAI1｜Vless
+  servername: kulai1vl.8437351.xyz
+- type: hysteria2
+  server: 149.118.133.177
+  port: 8443
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇲🇾｜KULAI1｜Hysteria2
+- type: vless
+  server: cfhk.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: kulai1vl.8437351.xyz
+    path: /
+  name: SS6|🇲🇾｜KULAI1｜Vless CFP
+  servername: kulai1vl.8437351.xyz
+- type: vless
+  server: ctcf.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: kulai1vl.8437351.xyz
+    path: /
+  name: SS6|🇲🇾｜KULAI1｜Vless CF
+  servername: kulai1vl.8437351.xyz
+- type: anytls
+  server: kulai2.8437351.xyz
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  name: SS6|🇲🇾｜KULAI2｜Anytls
+- type: tuic
+  server: 149.118.135.220
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇲🇾｜KULAI2｜TUIC
+  udp-relay-mode: native
+  version: 5
+- type: vless
+  server: 149.118.135.220
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: kulai2vl.8437351.xyz
+    path: /
+  name: SS6|🇲🇾｜KULAI2｜Vless
+  servername: kulai2vl.8437351.xyz
+- type: hysteria2
+  server: 149.118.135.220
+  port: 8443
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇲🇾｜KULAI2｜Hysteria2
+- type: vless
+  server: cfhk.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: kulai2vl.8437351.xyz
+    path: /
+  name: SS6|🇲🇾｜KULAI2｜Vless CFP
+  servername: kulai2vl.8437351.xyz
+- type: vless
+  server: ctcf.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: kulai2vl.8437351.xyz
+    path: /
+  name: SS6|🇲🇾｜KULAI2｜Vless CF
+  servername: kulai2vl.8437351.xyz
+- type: anytls
+  server: 158.178.224.239
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  name: SS6|🇸🇬｜SG1｜Anytls
+- type: tuic
+  server: 158.178.224.239
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇸🇬｜SG1｜TUIC
+  udp-relay-mode: native
+  version: 5
+- type: vless
+  server: 158.178.224.239
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: sgpvl.8437351.xyz
+    path: /
+  name: SS6|🇸🇬｜SG1｜Vless
+  servername: sgpvl.8437351.xyz
+- type: vless
+  server: cfhk.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: sgpvl.8437351.xyz
+    path: /
+  name: SS6|🇸🇬｜SG1｜Vless CFP
+  servername: sgpvl.8437351.xyz
+- type: vless
+  server: ctcf.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: sgpvl.8437351.xyz
+    path: /
+  name: SS6|🇸🇬｜SG1｜Vless CF
+  servername: sgpvl.8437351.xyz
+- type: anytls
+  server: 140.245.99.128
+  port: 46609
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  name: SS6|🇸🇬｜SG2｜Anytls
+- type: tuic
+  server: 140.245.99.128
+  port: 58000
+  udp: true
+  ip-version: ipv4
+  uuid: 33f20155-107d-4d19-aa2d-451774c4185f
+  password: bhvGnCGJiG
+  congestion-controller: bbr
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇸🇬｜SG2｜TUIC
+  udp-relay-mode: native
+  version: 5
+- type: vless
+  server: 140.245.99.128
+  port: 21000
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: sgvl.8437351.xyz
+    path: /
+  name: SS6|🇸🇬｜SG2｜Vless
+  servername: sgvl.8437351.xyz
+- type: vless
+  server: cfhk.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: sgvl.8437351.xyz
+    path: /
+  name: SS6|🇸🇬｜SG2｜Vless CFP
+  servername: sgvl.8437351.xyz
+- type: vless
+  server: ctcf.2020713.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  uuid: 83c6881e-09c1-4e5d-8094-9abae473344f
+  tls: true
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+  - h2
+  - h3
+  network: ws
+  ws-opts:
+    headers:
+      Host: sgvl.8437351.xyz
+    path: /
+  name: SS6|🇸🇬｜SG2｜Vless CF
+  servername: sgvl.8437351.xyz
+- type: hysteria2
+  server: hkfree.8437351.xyz
+  port: 443
+  udp: true
+  ip-version: ipv4
+  password: bhvGnCGJiG
+  skip-cert-verify: true
+  sni: alibaba.cdn.steampipe.steamcontent.com
+  alpn:
+  - h3
+  name: SS6|🇭🇰｜TechFreeV6｜Hysteria2
+proxy-groups:
+- name: 🚀 选择
+  type: select
+  proxies:
+  - SS6|🇯🇵｜AWS JP｜Anytls
+  - SS6|🇯🇵｜AWS JP｜TUIC
+  - SS6|🇯🇵｜AWS JP｜Vless
+  - SS6|🇯🇵｜AWS JP｜Vless CFP
+  - SS6|🇯🇵｜AWS JP｜Vless CF
+  - SS6|🇭🇰｜HKG｜Vless
+  - SS6|🇭🇰｜HKG｜TUIC
+  - SS6|🇭🇰｜HKG｜Hysteria2
+  - SS6|🇭🇰｜HKG｜Anytls
+  - SS6|🇭🇰｜HKG｜Vless CFP
+  - SS6|🇭🇰｜HKG｜Vless CF
+  - SS6|🇯🇵｜JP1｜Vless
+  - SS6|🇯🇵｜JP1｜Anytls
+  - SS6|🇯🇵｜JP1｜TUIC
+  - SS6|🇯🇵｜JP1｜Hysteria2
+  - SS6|🇯🇵｜JP1｜Vless CFP
+  - SS6|🇯🇵｜JP1｜Vless CF
+  - SS6|🇯🇵｜JP2｜Vless
+  - SS6|🇯🇵｜JP2｜Anytls
+  - SS6|🇯🇵｜JP2｜TUIC
+  - SS6|🇯🇵｜JP2｜Hysteria2
+  - SS6|🇯🇵｜JP2｜Vless CFP
+  - SS6|🇯🇵｜JP2｜Vless CF
+  - SS6|🇯🇵｜JP3｜Anytls
+  - SS6|🇯🇵｜JP3｜TUIC
+  - SS6|🇯🇵｜JP3｜Hysteria2
+  - SS6|🇯🇵｜JP3｜Vless
+  - SS6|🇯🇵｜JP3｜Vless CFP
+  - SS6|🇯🇵｜JP3｜Vless CF
+  - SS6|🇯🇵｜JP4｜Anytls
+  - SS6|🇯🇵｜JP4｜TUIC
+  - SS6|🇯🇵｜JP4｜Hysteria2
+  - SS6|🇯🇵｜JP4｜Vless
+  - SS6|🇯🇵｜JP4｜Vless CFP
+  - SS6|🇯🇵｜JP4｜Vless CF
+  - SS6|🇲🇾｜KULAI1｜Anytls
+  - SS6|🇲🇾｜KULAI1｜TUIC
+  - SS6|🇲🇾｜KULAI1｜Vless
+  - SS6|🇲🇾｜KULAI1｜Hysteria2
+  - SS6|🇲🇾｜KULAI1｜Vless CFP
+  - SS6|🇲🇾｜KULAI1｜Vless CF
+  - SS6|🇲🇾｜KULAI2｜Anytls
+  - SS6|🇲🇾｜KULAI2｜TUIC
+  - SS6|🇲🇾｜KULAI2｜Vless
+  - SS6|🇲🇾｜KULAI2｜Hysteria2
+  - SS6|🇲🇾｜KULAI2｜Vless CFP
+  - SS6|🇲🇾｜KULAI2｜Vless CF
+  - SS6|🇸🇬｜SG1｜Anytls
+  - SS6|🇸🇬｜SG1｜TUIC
+  - SS6|🇸🇬｜SG1｜Vless
+  - SS6|🇸🇬｜SG1｜Vless CFP
+  - SS6|🇸🇬｜SG1｜Vless CF
+  - SS6|🇸🇬｜SG2｜Anytls
+  - SS6|🇸🇬｜SG2｜TUIC
+  - SS6|🇸🇬｜SG2｜Vless
+  - SS6|🇸🇬｜SG2｜Vless CFP
+  - SS6|🇸🇬｜SG2｜Vless CF
+  - SS6|🇭🇰｜TechFreeV6｜Hysteria2
+- name: ♻️ 自动
+  type: url-test
+  proxies:
+  - SS6|🇯🇵｜AWS JP｜Anytls
+  - SS6|🇯🇵｜AWS JP｜TUIC
+  - SS6|🇯🇵｜AWS JP｜Vless
+  - SS6|🇯🇵｜AWS JP｜Vless CFP
+  - SS6|🇯🇵｜AWS JP｜Vless CF
+  - SS6|🇭🇰｜HKG｜Vless
+  - SS6|🇭🇰｜HKG｜TUIC
+  - SS6|🇭🇰｜HKG｜Hysteria2
+  - SS6|🇭🇰｜HKG｜Anytls
+  - SS6|🇭🇰｜HKG｜Vless CFP
+  - SS6|🇭🇰｜HKG｜Vless CF
+  - SS6|🇯🇵｜JP1｜Vless
+  - SS6|🇯🇵｜JP1｜Anytls
+  - SS6|🇯🇵｜JP1｜TUIC
+  - SS6|🇯🇵｜JP1｜Hysteria2
+  - SS6|🇯🇵｜JP1｜Vless CFP
+  - SS6|🇯🇵｜JP1｜Vless CF
+  - SS6|🇯🇵｜JP2｜Vless
+  - SS6|🇯🇵｜JP2｜Anytls
+  - SS6|🇯🇵｜JP2｜TUIC
+  - SS6|🇯🇵｜JP2｜Hysteria2
+  - SS6|🇯🇵｜JP2｜Vless CFP
+  - SS6|🇯🇵｜JP2｜Vless CF
+  - SS6|🇯🇵｜JP3｜Anytls
+  - SS6|🇯🇵｜JP3｜TUIC
+  - SS6|🇯🇵｜JP3｜Hysteria2
+  - SS6|🇯🇵｜JP3｜Vless
+  - SS6|🇯🇵｜JP3｜Vless CFP
+  - SS6|🇯🇵｜JP3｜Vless CF
+  - SS6|🇯🇵｜JP4｜Anytls
+  - SS6|🇯🇵｜JP4｜TUIC
+  - SS6|🇯🇵｜JP4｜Hysteria2
+  - SS6|🇯🇵｜JP4｜Vless
+  - SS6|🇯🇵｜JP4｜Vless CFP
+  - SS6|🇯🇵｜JP4｜Vless CF
+  - SS6|🇲🇾｜KULAI1｜Anytls
+  - SS6|🇲🇾｜KULAI1｜TUIC
+  - SS6|🇲🇾｜KULAI1｜Vless
+  - SS6|🇲🇾｜KULAI1｜Hysteria2
+  - SS6|🇲🇾｜KULAI1｜Vless CFP
+  - SS6|🇲🇾｜KULAI1｜Vless CF
+  - SS6|🇲🇾｜KULAI2｜Anytls
+  - SS6|🇲🇾｜KULAI2｜TUIC
+  - SS6|🇲🇾｜KULAI2｜Vless
+  - SS6|🇲🇾｜KULAI2｜Hysteria2
+  - SS6|🇲🇾｜KULAI2｜Vless CFP
+  - SS6|🇲🇾｜KULAI2｜Vless CF
+  - SS6|🇸🇬｜SG1｜Anytls
+  - SS6|🇸🇬｜SG1｜TUIC
+  - SS6|🇸🇬｜SG1｜Vless
+  - SS6|🇸🇬｜SG1｜Vless CFP
+  - SS6|🇸🇬｜SG1｜Vless CF
+  - SS6|🇸🇬｜SG2｜Anytls
+  - SS6|🇸🇬｜SG2｜TUIC
+  - SS6|🇸🇬｜SG2｜Vless
+  - SS6|🇸🇬｜SG2｜Vless CFP
+  - SS6|🇸🇬｜SG2｜Vless CF
+  - SS6|🇭🇰｜TechFreeV6｜Hysteria2
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+  tolerance: 50
+rules:
+- MATCH,🚀 选择
