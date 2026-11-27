@@ -1,0 +1,451 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+geodata-mode: false
+proxies:
+- name: 'SS63|套餐流量: 2.00 TB'
+  type: vless
+  server: sgp3.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  flow: xtls-rprx-vision
+  encryption: mlkem768x25519plus.native.0rtt.w2IAY_ovmV1X1-OiN1YWfqQ3-6o8yjwyWZYP43dguQw
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: 4LUQAhy2qldemgsGArH5kh12iiwuPzpUiDUc-JwcqQo
+    short-id: af4cf4ac
+  network: tcp
+  udp: true
+  servername: world.taobao.com
+- name: 'SS63|剩余流量: 2.00 TB'
+  type: vless
+  server: sgp3.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  flow: xtls-rprx-vision
+  encryption: mlkem768x25519plus.native.0rtt.w2IAY_ovmV1X1-OiN1YWfqQ3-6o8yjwyWZYP43dguQw
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: 4LUQAhy2qldemgsGArH5kh12iiwuPzpUiDUc-JwcqQo
+    short-id: af4cf4ac
+  network: tcp
+  udp: true
+  servername: world.taobao.com
+- name: 'SS63|到期时间: 2027-02-19 23:50'
+  type: vless
+  server: sgp3.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  flow: xtls-rprx-vision
+  encryption: mlkem768x25519plus.native.0rtt.w2IAY_ovmV1X1-OiN1YWfqQ3-6o8yjwyWZYP43dguQw
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: 4LUQAhy2qldemgsGArH5kh12iiwuPzpUiDUc-JwcqQo
+    short-id: af4cf4ac
+  network: tcp
+  udp: true
+  servername: world.taobao.com
+- name: SS63|APEX-JP4-X-SPLIT
+  type: vless
+  server: jp4x.nicemini.cn
+  port: 8443
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  alpn:
+  - h3
+  network: xhttp
+  xhttp-opts:
+    path: /sync/d7d43969858c69b1aa9795bf
+    mode: packet-up
+    host: jp4x.eatp.top
+    download-settings:
+      server: jp4x.nicemini.cn
+      port: 8443
+      tls: true
+      servername: jp4x.eatp.top
+      alpn:
+      - h2
+      host: jp4x.eatp.top
+      path: /sync/d7d43969858c69b1aa9795bf
+      client-fingerprint: chrome
+      skip-cert-verify: false
+    reuse-settings:
+      max-concurrency: 16-32
+      h-max-reusable-secs: 1800-3000
+  udp: true
+  servername: jp4x.eatp.top
+- name: SS63|APEX-SGP4-DR
+  type: vless
+  server: sgp4.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  flow: xtls-rprx-vision
+  encryption: mlkem768x25519plus.native.0rtt.clLOaJlrloqpyBLLfLUmluj9hWBxoMuU0rGANOeWdkY
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: nyj0jtUDlQ7yb3_sR32GBvk7nFHBgDWWJ120M2bdzCs
+    short-id: 537b0ec8
+  network: tcp
+  udp: true
+  servername: world.taobao.com
+- name: SS63|APEX-JP4-X-H3
+  type: vless
+  server: jp4x.nicemini.cn
+  port: 2053
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  alpn:
+  - h3
+  network: xhttp
+  xhttp-opts:
+    path: /sync/d7d43969858c69b1aa9795bf
+    mode: packet-up
+    host: jp4x.eatp.top
+    reuse-settings:
+      max-concurrency: 16-32
+      h-max-reusable-secs: 1800-3000
+  udp: true
+  servername: jp4x.eatp.top
+- name: SS63|APEX-SGP3X
+  type: vless
+  server: sgp3.nicemini.cn
+  port: 23334
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  alpn:
+  - h3
+  network: xhttp
+  xhttp-opts:
+    path: /sync/16b40edf22ee6f4c9510a171f45a2d8c
+    mode: auto
+    reuse-settings:
+      max-concurrency: 16-32
+      h-max-reusable-secs: 1800-3000
+  udp: true
+  servername: sgp3.nicemini.cn
+- name: SS63|APEX-SGP4-DS
+  type: vless
+  server: sgp4.nicemini.cn
+  port: 23334
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  encryption: mlkem768x25519plus.native.0rtt.clLOaJlrloqpyBLLfLUmluj9hWBxoMuU0rGANOeWdkY
+  client-fingerprint: chrome
+  tls: true
+  alpn:
+  - h3
+  network: xhttp
+  xhttp-opts:
+    path: /sync/8625e5e7994426649a3d207c1d6fc359
+    mode: packet-up
+    download-settings:
+      host: ''
+      path: /sync/8625e5e7994426649a3d207c1d6fc359
+      servername: world.taobao.com
+      client-fingerprint: chrome
+      skip-cert-verify: false
+      port: 23334
+      server: sgp4.nicemini.cn
+      tls: true
+      alpn:
+      - h2
+      reality-opts:
+        public-key: nyj0jtUDlQ7yb3_sR32GBvk7nFHBgDWWJ120M2bdzCs
+        short-id: 537b0ec8
+      headers: {}
+    reuse-settings:
+      max-concurrency: 16-32
+      h-max-reusable-secs: 1800-3000
+  udp: true
+  servername: sgp4.nicemini.cn
+- name: SS63|Lite-US3
+  type: vless
+  server: u3.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  dialer-proxy: APEX-HKGroup
+  network: tcp
+  udp: true
+- name: SS63|APEX-US5
+  type: vless
+  server: u5.nicemini.cn
+  port: 23338
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  dialer-proxy: APEX-HKGroup
+  network: tcp
+  udp: true
+- name: SS63|APEX-JP2X
+  type: vless
+  server: jp2.nicemini.cn
+  port: 8443
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  alpn:
+  - h3
+  network: xhttp
+  xhttp-opts:
+    path: /sync/92c842ffabd71b8fac3ca305
+    mode: auto
+    host: jp2.nicemini.cn
+    reuse-settings:
+      max-concurrency: 16-32
+      h-max-reusable-secs: 1800-3000
+  udp: true
+  servername: jp2.nicemini.cn
+- name: SS63|APEX-KR1X
+  type: vless
+  server: kr1.nicemini.cn
+  port: 8443
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  alpn:
+  - h3
+  network: xhttp
+  xhttp-opts:
+    path: /sync/d24ba4f2faddddf22ac7eaed
+    mode: auto
+    reuse-settings:
+      max-concurrency: 16-32
+      h-max-reusable-secs: 1800-3000
+  udp: true
+  servername: kr1.nicemini.cn
+- name: SS63|APEX-HKGroup-1
+  type: vless
+  server: gz1.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: IlTfl0xhIcGEyrlQuSBFZ40XYHtgpdI7tR6-SrxEfXs
+    short-id: 0123abcd
+  network: grpc
+  grpc-opts:
+    grpc-service-name: user
+  udp: true
+  servername: static.nike.com
+- name: SS63|APEX-HKGroup-2
+  type: vless
+  server: gz2.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: IlTfl0xhIcGEyrlQuSBFZ40XYHtgpdI7tR6-SrxEfXs
+    short-id: 0123abcd
+  network: grpc
+  grpc-opts:
+    grpc-service-name: user
+  udp: true
+  servername: static.nike.com
+- name: SS63|APEX-HKGroup-3
+  type: vless
+  server: gz3.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: IlTfl0xhIcGEyrlQuSBFZ40XYHtgpdI7tR6-SrxEfXs
+    short-id: 0123abcd
+  network: grpc
+  grpc-opts:
+    grpc-service-name: user
+  udp: true
+  servername: static.nike.com
+- name: SS63|APEX-HKGroup-4
+  type: vless
+  server: gz4.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: IlTfl0xhIcGEyrlQuSBFZ40XYHtgpdI7tR6-SrxEfXs
+    short-id: 0123abcd
+  network: grpc
+  grpc-opts:
+    grpc-service-name: user
+  udp: true
+  servername: static.nike.com
+- name: SS63|APEX-HKGroup-5
+  type: vless
+  server: gz5.nicemini.cn
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: IlTfl0xhIcGEyrlQuSBFZ40XYHtgpdI7tR6-SrxEfXs
+    short-id: 0123abcd
+  network: grpc
+  grpc-opts:
+    grpc-service-name: user
+  udp: true
+  servername: static.nike.com
+- name: SS63|APEX-US2
+  type: vless
+  server: 107.149.71.163
+  port: 23333
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  flow: xtls-rprx-vision
+  encryption: mlkem768x25519plus.native.0rtt.fqAJAC1luyXwQq9yluimo7k3qNAAgNm_yt7mEQt8qFQ
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: 6Ey-AO3__dQU8YJsZAq8VMliWkPnhkiuG5BLalg9pi4
+    short-id: 2315f297
+  network: tcp
+  udp: true
+  servername: world.taobao.com
+- name: SS63|APEX-JP5-DR
+  type: vless
+  server: jp5.nicemini.cn
+  port: 443
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: aiBTzwPszr33-eg2Nt6LVh6ec_IT8HKweKh9316ISxY
+    short-id: a3e3e40dc8bae6d2
+  network: tcp
+  udp: true
+  servername: world.taobao.com
+- name: SS63|US5-DMIT-Transit2
+  type: vless
+  server: 179.255.156.153
+  port: 53158
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  encryption: none
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: 7xZ63JROODkY4NH8PeAu277oTtieXLnr-tYRzse3NDg
+    short-id: 8fb27e
+    spider-x: /a14016d74b8c7c1
+  network: xhttp
+  xhttp-opts:
+    path: /
+    mode: auto
+    host: www.amd.com
+    x-padding-bytes: 100-1000
+    reuse-settings:
+      max-concurrency: 16-32
+      h-max-reusable-secs: 1800-3000
+  udp: true
+  servername: download.amd.com
+- name: SS63|US5-DMIT-Transit
+  type: vless
+  server: 179.255.156.153
+  port: 50750
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  encryption: none
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: fkuvSoQRaJoOwTRWTNIgJtD71TUrtb_bCh2zzPs1ngA
+    short-id: aba06e84dad2ab9d
+    spider-x: /12a1ae8e61b270d
+  network: xhttp
+  xhttp-opts:
+    path: /
+    mode: auto
+    host: www.amd.com
+    x-padding-bytes: 100-1000
+    reuse-settings:
+      max-concurrency: 16-32
+      h-max-reusable-secs: 1800-3000
+  udp: true
+  servername: www.amd.com
+- name: SS63|US4-HK-Transit
+  type: vless
+  server: u4.nicemini.cn
+  port: 23334
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  encryption: mlkem768x25519plus.native.0rtt.k7R4FRFb226fmYNg7QbQpQJ8V8N6odGvt-k_Xeee4Uo
+  network: tcp
+  udp: true
+- name: SS63|APEX-TW1
+  type: vless
+  server: t1.nicemini.cn
+  port: 49532
+  uuid: 07d1f1b9-f4f0-495c-a6ba-23492464491f
+  client-fingerprint: chrome
+  tls: true
+  reality-opts:
+    public-key: LA5qVpj_BcRQKW-sSNhHXrmKLqDYFUgj2TT7Ur21-SM
+    short-id: 0541ed9b
+  network: grpc
+  grpc-opts:
+    grpc-service-name: user
+  udp: true
+  servername: www.tesla.com
+proxy-groups:
+- name: 🚀 选择
+  type: select
+  proxies:
+  - 'SS63|套餐流量: 2.00 TB'
+  - 'SS63|剩余流量: 2.00 TB'
+  - 'SS63|到期时间: 2027-02-19 23:50'
+  - SS63|APEX-JP4-X-SPLIT
+  - SS63|APEX-SGP4-DR
+  - SS63|APEX-JP4-X-H3
+  - SS63|APEX-SGP3X
+  - SS63|APEX-SGP4-DS
+  - SS63|Lite-US3
+  - SS63|APEX-US5
+  - SS63|APEX-JP2X
+  - SS63|APEX-KR1X
+  - SS63|APEX-HKGroup-1
+  - SS63|APEX-HKGroup-2
+  - SS63|APEX-HKGroup-3
+  - SS63|APEX-HKGroup-4
+  - SS63|APEX-HKGroup-5
+  - SS63|APEX-US2
+  - SS63|APEX-JP5-DR
+  - SS63|US5-DMIT-Transit2
+  - SS63|US5-DMIT-Transit
+  - SS63|US4-HK-Transit
+  - SS63|APEX-TW1
+- name: ♻️ 自动
+  type: url-test
+  proxies:
+  - 'SS63|套餐流量: 2.00 TB'
+  - 'SS63|剩余流量: 2.00 TB'
+  - 'SS63|到期时间: 2027-02-19 23:50'
+  - SS63|APEX-JP4-X-SPLIT
+  - SS63|APEX-SGP4-DR
+  - SS63|APEX-JP4-X-H3
+  - SS63|APEX-SGP3X
+  - SS63|APEX-SGP4-DS
+  - SS63|Lite-US3
+  - SS63|APEX-US5
+  - SS63|APEX-JP2X
+  - SS63|APEX-KR1X
+  - SS63|APEX-HKGroup-1
+  - SS63|APEX-HKGroup-2
+  - SS63|APEX-HKGroup-3
+  - SS63|APEX-HKGroup-4
+  - SS63|APEX-HKGroup-5
+  - SS63|APEX-US2
+  - SS63|APEX-JP5-DR
+  - SS63|US5-DMIT-Transit2
+  - SS63|US5-DMIT-Transit
+  - SS63|US4-HK-Transit
+  - SS63|APEX-TW1
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+  tolerance: 50
+rules:
+- MATCH,🚀 选择
