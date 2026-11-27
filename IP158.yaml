@@ -1,0 +1,128 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+geodata-mode: false
+proxies:
+- name: IP158|oci-1
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 1
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-5
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 5
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-8
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 8
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-10
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 10
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-11
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 11
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-15
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 15
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-18
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 18
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-55
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 55
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-58
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 58
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-80
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 80
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+- name: IP158|oci-88
+  type: vless
+  server: xinxuanx.duckdns.org
+  port: 88
+  uuid: 9045d71f-4157-4cbd-a129-f7992926f4b6
+  network: tcp
+  tls: false
+  udp: true
+proxy-groups:
+- name: 🚀 选择
+  type: select
+  proxies:
+  - IP158|oci-1
+  - IP158|oci-5
+  - IP158|oci-8
+  - IP158|oci-10
+  - IP158|oci-11
+  - IP158|oci-15
+  - IP158|oci-18
+  - IP158|oci-55
+  - IP158|oci-58
+  - IP158|oci-80
+  - IP158|oci-88
+- name: ♻️ 自动
+  type: url-test
+  proxies:
+  - IP158|oci-1
+  - IP158|oci-5
+  - IP158|oci-8
+  - IP158|oci-10
+  - IP158|oci-11
+  - IP158|oci-15
+  - IP158|oci-18
+  - IP158|oci-55
+  - IP158|oci-58
+  - IP158|oci-80
+  - IP158|oci-88
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+  tolerance: 50
+rules:
+- MATCH,🚀 选择
