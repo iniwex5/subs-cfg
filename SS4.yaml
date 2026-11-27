@@ -1,0 +1,1201 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+geodata-mode: false
+proxies:
+- server: cfnew.defend.de5.net
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|优选域名-01
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: cfnew.defend.de5.net
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|优选域名-02
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: cfnew.defend.de5.net
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|优选域名-03
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.18.44.7
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-01
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.18.46.115
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-02
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.18.47.229
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-03
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.18.47.91
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-04
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 162.159.237.178
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-05
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.144.17
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-06
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.145.41
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-07
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.154.144
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-08
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.156.75
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-09
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.229.89
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-10
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 108.162.198.185
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-01
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.79.141
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|圣何塞_SJC-01
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.88.21
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|圣何塞_SJC-02
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.21.233.101
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|亚特兰大_ATL-01
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.21.225.39
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|亚特兰大_ATL-02
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 162.159.44.37
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-02
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.52.17
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-03
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 103.31.4.204
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|丹佛_DEN-01
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.18.44.7
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-11
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 104.18.46.115
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-12
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 104.18.47.229
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-13
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 104.18.47.91
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-14
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 162.159.237.178
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-15
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 172.64.144.17
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-16
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 172.64.145.41
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-17
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 172.64.154.144
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-18
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 172.64.156.75
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-19
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 172.64.229.89
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|电信优选0917-20
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 108.162.198.185
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-04
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 172.64.79.141
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|圣何塞_SJC-03
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 172.64.88.21
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|圣何塞_SJC-04
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 104.21.233.101
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|亚特兰大_ATL-03
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 104.21.225.39
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|亚特兰大_ATL-04
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 162.159.44.37
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-05
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 172.64.52.17
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-06
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 103.31.4.204
+  port: 443
+  password: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  sni: cfnew.defend.de5.net
+  skip-cert-verify: false
+  name: SS4|丹佛_DEN-02
+  type: trojan
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfnew.defend.de5.net
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  udp: true
+- server: 104.18.44.7
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-21
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.18.46.115
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-22
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.18.47.229
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-23
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.18.47.91
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-24
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 162.159.237.178
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-25
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.144.17
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-26
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.145.41
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-27
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.154.144
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-28
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.156.75
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-29
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.229.89
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|电信优选0917-30
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 108.162.198.185
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-07
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.79.141
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|圣何塞_SJC-05
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.88.21
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|圣何塞_SJC-06
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.21.233.101
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|亚特兰大_ATL-05
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 104.21.225.39
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|亚特兰大_ATL-06
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 162.159.44.37
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-08
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 172.64.52.17
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|东京成田_NRT-09
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- server: 103.31.4.204
+  port: 443
+  cipher: none
+  uuid: a76234c6-0c8e-439a-94d0-e278f46d1aed
+  skip-cert-verify: false
+  name: SS4|丹佛_DEN-03
+  type: vless
+  network: ws
+  tls: true
+  ws-opts:
+    path: /a76234c6
+    headers:
+      Host: cfnew.defend.de5.net
+  udp: true
+  servername: cfnew.defend.de5.net
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Lan/Lan.list,
+    tag=局域网, force-policy=🎯 全球直连, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Lan/Lan.list,
+    tag=局域网, force-policy=🎯 全球直连, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Advertising/Advertising.list,
+    tag=广告拦截, force-policy=🛑 全球拦截, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Advertising/Advertising.list,
+    tag=广告拦截, force-policy=🛑 全球拦截, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Microsoft/Microsoft.list,
+    tag=微软, force-policy=Ⓜ️ 微软服务, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Microsoft/Microsoft.list,
+    tag=微软, force-policy=Ⓜ️ 微软服务, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Apple/Apple.list,
+    tag=苹果, force-policy=🍎 苹果服务, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Apple/Apple.list,
+    tag=苹果, force-policy=🍎 苹果服务, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Telegram/Telegram.list,
+    tag=电报, force-policy=📲 电报信息, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Telegram/Telegram.list,
+    tag=电报, force-policy=📲 电报信息, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Google/Google.list,
+    tag=谷歌, force-policy=🌐 谷歌服务, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Google/Google.list,
+    tag=谷歌, force-policy=🌐 谷歌服务, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/OpenAI/OpenAI.list,
+    tag=OpenAI, force-policy=🤖 OpenAI, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/OpenAI/OpenAI.list,
+    tag=OpenAI, force-policy=🤖 OpenAI, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Claude/Claude.list,
+    tag=Claude, force-policy=🤖 OpenAI, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Claude/Claude.list,
+    tag=Claude, force-policy=🤖 OpenAI, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/YouTube/YouTube.list,
+    tag=YouTube, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/YouTube/YouTube.list,
+    tag=YouTube, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Netflix/Netflix.list,
+    tag=Netflix, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Netflix/Netflix.list,
+    tag=Netflix, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Disney/Disney.list,
+    tag=Disney, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Disney/Disney.list,
+    tag=Disney, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list,
+    tag=Spotify, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Spotify/Spotify.list,
+    tag=Spotify, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/TikTok/TikTok.list,
+    tag=TikTok, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/TikTok/TikTok.list,
+    tag=TikTok, force-policy=🌍 国外媒体, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BiliBili/BiliBili.list,
+    tag=哔哩哔哩, force-policy=📺 哔哩哔哩, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/BiliBili/BiliBili.list,
+    tag=哔哩哔哩, force-policy=📺 哔哩哔哩, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Global/Global.list,
+    tag=全球加速, force-policy=🚀 节点选择, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/Global/Global.list,
+    tag=全球加速, force-policy=🚀 节点选择, update-interval=86400, opt-parser=false, enabled=true
+- name: SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  type: http
+  tls: true
+  server: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/ChinaMax/ChinaMax.list,
+    tag=中国直连, force-policy=🎯 全球直连, update-interval=86400, opt-parser=false, enabled=true
+  port: 443
+  udp: true
+  sni: fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/QuantumultX/ChinaMax/ChinaMax.list,
+    tag=中国直连, force-policy=🎯 全球直连, update-interval=86400, opt-parser=false, enabled=true
+proxy-groups:
+- name: 🚀 选择
+  type: select
+  proxies:
+  - SS4|优选域名-01
+  - SS4|优选域名-02
+  - SS4|优选域名-03
+  - SS4|电信优选0917-01
+  - SS4|电信优选0917-02
+  - SS4|电信优选0917-03
+  - SS4|电信优选0917-04
+  - SS4|电信优选0917-05
+  - SS4|电信优选0917-06
+  - SS4|电信优选0917-07
+  - SS4|电信优选0917-08
+  - SS4|电信优选0917-09
+  - SS4|电信优选0917-10
+  - SS4|东京成田_NRT-01
+  - SS4|圣何塞_SJC-01
+  - SS4|圣何塞_SJC-02
+  - SS4|亚特兰大_ATL-01
+  - SS4|亚特兰大_ATL-02
+  - SS4|东京成田_NRT-02
+  - SS4|东京成田_NRT-03
+  - SS4|丹佛_DEN-01
+  - SS4|电信优选0917-11
+  - SS4|电信优选0917-12
+  - SS4|电信优选0917-13
+  - SS4|电信优选0917-14
+  - SS4|电信优选0917-15
+  - SS4|电信优选0917-16
+  - SS4|电信优选0917-17
+  - SS4|电信优选0917-18
+  - SS4|电信优选0917-19
+  - SS4|电信优选0917-20
+  - SS4|东京成田_NRT-04
+  - SS4|圣何塞_SJC-03
+  - SS4|圣何塞_SJC-04
+  - SS4|亚特兰大_ATL-03
+  - SS4|亚特兰大_ATL-04
+  - SS4|东京成田_NRT-05
+  - SS4|东京成田_NRT-06
+  - SS4|丹佛_DEN-02
+  - SS4|电信优选0917-21
+  - SS4|电信优选0917-22
+  - SS4|电信优选0917-23
+  - SS4|电信优选0917-24
+  - SS4|电信优选0917-25
+  - SS4|电信优选0917-26
+  - SS4|电信优选0917-27
+  - SS4|电信优选0917-28
+  - SS4|电信优选0917-29
+  - SS4|电信优选0917-30
+  - SS4|东京成田_NRT-07
+  - SS4|圣何塞_SJC-05
+  - SS4|圣何塞_SJC-06
+  - SS4|亚特兰大_ATL-05
+  - SS4|亚特兰大_ATL-06
+  - SS4|东京成田_NRT-08
+  - SS4|东京成田_NRT-09
+  - SS4|丹佛_DEN-03
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+- name: ♻️ 自动
+  type: url-test
+  proxies:
+  - SS4|优选域名-01
+  - SS4|优选域名-02
+  - SS4|优选域名-03
+  - SS4|电信优选0917-01
+  - SS4|电信优选0917-02
+  - SS4|电信优选0917-03
+  - SS4|电信优选0917-04
+  - SS4|电信优选0917-05
+  - SS4|电信优选0917-06
+  - SS4|电信优选0917-07
+  - SS4|电信优选0917-08
+  - SS4|电信优选0917-09
+  - SS4|电信优选0917-10
+  - SS4|东京成田_NRT-01
+  - SS4|圣何塞_SJC-01
+  - SS4|圣何塞_SJC-02
+  - SS4|亚特兰大_ATL-01
+  - SS4|亚特兰大_ATL-02
+  - SS4|东京成田_NRT-02
+  - SS4|东京成田_NRT-03
+  - SS4|丹佛_DEN-01
+  - SS4|电信优选0917-11
+  - SS4|电信优选0917-12
+  - SS4|电信优选0917-13
+  - SS4|电信优选0917-14
+  - SS4|电信优选0917-15
+  - SS4|电信优选0917-16
+  - SS4|电信优选0917-17
+  - SS4|电信优选0917-18
+  - SS4|电信优选0917-19
+  - SS4|电信优选0917-20
+  - SS4|东京成田_NRT-04
+  - SS4|圣何塞_SJC-03
+  - SS4|圣何塞_SJC-04
+  - SS4|亚特兰大_ATL-03
+  - SS4|亚特兰大_ATL-04
+  - SS4|东京成田_NRT-05
+  - SS4|东京成田_NRT-06
+  - SS4|丹佛_DEN-02
+  - SS4|电信优选0917-21
+  - SS4|电信优选0917-22
+  - SS4|电信优选0917-23
+  - SS4|电信优选0917-24
+  - SS4|电信优选0917-25
+  - SS4|电信优选0917-26
+  - SS4|电信优选0917-27
+  - SS4|电信优选0917-28
+  - SS4|电信优选0917-29
+  - SS4|电信优选0917-30
+  - SS4|东京成田_NRT-07
+  - SS4|圣何塞_SJC-05
+  - SS4|圣何塞_SJC-06
+  - SS4|亚特兰大_ATL-05
+  - SS4|亚特兰大_ATL-06
+  - SS4|东京成田_NRT-08
+  - SS4|东京成田_NRT-09
+  - SS4|丹佛_DEN-03
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  - SS4|http fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+  tolerance: 50
+rules:
+- MATCH,🚀 选择
